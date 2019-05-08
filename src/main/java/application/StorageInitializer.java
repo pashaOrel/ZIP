@@ -80,7 +80,7 @@ public class StorageInitializer {
 
             }
         }   catch (Exception e) {
-            System.out.println("Something wrong with backup initializing");
+            System.out.println("Something wrong with backup initializing");  //remove this. Use logger
             e.printStackTrace();
         }
 
